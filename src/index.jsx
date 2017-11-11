@@ -1,12 +1,5 @@
 import Component from 'react';
 import ReactDOM from 'react-dom';
+import App from 'components/App.jsx'
 
-export default class Index extends Component {
-  render() {
-    return (
-      <div>this is a test</div>
-    )
-  }
-}
-
-ReactDOM.render(Index, document.getElementById(root));
+ReactDOM.render(<App />, document.getElementById('container'));
