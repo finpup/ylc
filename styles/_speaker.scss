@@ -1,0 +1,72 @@
+@import 'globals';
+
+$speaker-border: 3px solid $orange;
+
+#speaker {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 60px;
+  width: 100%;
+
+  .topic {
+    border: $speaker-border;
+    border-radius: 8px;
+    display: flex;
+    font-family: $header-stack;
+    height: 76px;
+    width: 700px;
+
+    & >div {
+      padding: 0 20px;
+    }
+
+    &__label {
+      align-items: center;
+      background: $white;
+      border-radius: 8px 0 0 8px;
+      display: flex;
+      flex: 1;
+      justify-content: center;
+
+      &__text {
+        color: $orange;
+        font-size: 40px;
+      }
+    }
+
+    &__name {
+      align-items: center;
+      background: $orange;
+      color: $white;
+      display: flex;
+      flex: 5;
+      justify-content: space-between;
+
+      &__text {
+        font-size: 40px;
+      }
+
+      &__scripture {
+        align-self: flex-start;
+        margin-top: 30px;
+        font-weight: 200;
+        /* Safari */
+        -webkit-transform: rotate(-90deg);
+
+        /* Firefox */
+        -moz-transform: rotate(-90deg);
+
+        /* IE */
+        -ms-transform: rotate(-90deg);
+
+        /* Opera */
+        -o-transform: rotate(-90deg);
+      }
+    }
+  }
+
+  .speaker {
+
+  }
+}
