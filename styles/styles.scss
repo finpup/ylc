@@ -1,12 +1,12 @@
 @import '~normalize.css';
 @import 'globals';
 @import url('https://fonts.googleapis.com/css?family=Oswald');
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i');
 
 
 body {
   background: $white;
-  color: $navy;
+  color: $black;
   font-family: $font-stack;
 }
 
