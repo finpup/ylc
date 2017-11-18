@@ -1,0 +1,117 @@
+@import 'globals';
+
+$info-height: 300px;
+
+#info {
+  border-top: 8px solid $navy;
+  display: flex;
+  width: 100%;
+
+  nav {
+    margin: 20px 0 0 26px;
+    width: 115px;
+
+    .navLink {
+      cursor: pointer;
+      font-weight: 300;
+      margin-bottom: 16px;
+
+      &:hover {
+        color: $orange;
+      }
+    }
+  }
+
+  #pertinents {
+    display: flex;
+    height: $info-height;
+    justify-content: flex-start;
+
+    #pertinents_wrapper {
+      background: $navy;
+      border-right: 3px solid $white;
+      border-radius: 0 0 0 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 40px 50px;
+    }
+
+    & .pertinents__line {
+      margin-bottom: 24px;
+
+      a {
+        color: $teal;
+      }
+
+      &:first-child {
+        color: $yellow;
+      }
+
+      &:nth-child(2) {
+        color: $orange;
+      }
+
+      &:last-child {
+        color: $teal;
+        margin-bottom: 0;
+      }
+
+      &__text {
+        font-size: 32px;
+        font-weight: 300;
+      }
+
+      &__sub {
+        color: $off-white;
+        font-size: 14px;
+        font-weight: 100;
+        margin-top: 4px;
+      }
+    }
+  }
+
+  #location {
+    border-radius: 0 0 8px 0;
+    height: $info-height;
+    overflow: hidden;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .register {
+    align-items: center;
+    display: flex;
+    flex: 2;
+    justify-content: center;
+
+
+    &__btn {
+      align-items: center;
+      background: $yellow;
+      color: $navy;
+      border-radius: 8px;
+      display: flex;
+      height: 140px;
+      justify-content: center;
+      width: 200px;
+
+      &:hover {
+        border-color: $teal;
+        cursor: pointer;
+      }
+
+      &:hover .register__btn__text {
+        color: $white;
+      }
+
+      &__text {
+        font-family: $header-stack;
+        font-size: 28px;
+        text-decoration: underline;
+      }
+    }
+  }
+}
