@@ -1,6 +1,7 @@
 @import 'globals';
 
-$speaker-border: 3px solid $orange;
+$topic-border: 3px solid $orange;
+$speaker-border-top: 111px;
 
 #speaker {
   align-items: center;
@@ -10,7 +11,7 @@ $speaker-border: 3px solid $orange;
   width: 100%;
 
   .topic {
-    border: $speaker-border;
+    border: $topic-border;
     border-radius: 8px;
     display: flex;
     font-family: $header-stack;
@@ -67,6 +68,66 @@ $speaker-border: 3px solid $orange;
   }
 
   .speaker {
+    background: $navy;
+    border-top: $speaker-border-top solid $white;
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+    padding-bottom: 100px;
+    width: 100%;
 
+    .speaker-wrapper {
+      display: flex;
+      margin-top: -$speaker-border-top;
+      width: 92%;
+      max-width: 700px;
+    }
+
+    &__img {
+      display: flex;
+      justify-content: flex-start;
+
+      &__stripes {
+        background: url("../assets/verticalStripes.png") repeat-y;
+        height: 222px;
+        width: 65px;
+      }
+
+      img {
+
+      }
+    }
+
+    &-right {
+      display: flex;
+      flex-direction: column;
+      margin: 50px 0 0 50px;
+    }
+
+    &__header {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 24px;
+
+      &__label {
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 100;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+      }
+
+      &__text {
+        font-size: 24px;
+      }
+    }
+
+    &__profile {
+
+      &__text {
+        color: $white;
+        line-height: 24px;
+      }
+    }
   }
 }
