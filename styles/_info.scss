@@ -1,6 +1,6 @@
 @import 'globals';
 
-$info-height: 300px;
+$info-height: 250px;
 
 #info {
   border-top: 8px solid $navy;
@@ -34,7 +34,7 @@ $info-height: 300px;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      padding: 40px 50px;
+      padding: 15px 50px;
     }
 
     & .pertinents__line {
@@ -58,8 +58,10 @@ $info-height: 300px;
       }
 
       &__text {
+        font-family: $header-stack;
         font-size: 32px;
         font-weight: 300;
+        letter-spacing: 1px;
       }
 
       &__sub {

@@ -17,10 +17,7 @@ export default class Info extends Component {
 							<div className="pertinents__line__text">July 5-8, 2018</div>
 						</div>
 						<div className="pertinents__line">
-							<a href="https://www.geneva.edu/" target="_blank">
-								<div className="pertinents__line__text">Geneva College</div>
-							</a>
-							<div className="pertinents__line__sub">Beaver Falls, Penn.</div>
+							<div className="pertinents__line__text">Beaver Falls, Penn.</div>
 						</div>
 					</div>
 				</div>

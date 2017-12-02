@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "header": {
+      "date": "July 5",
+      "day": "Thursday"
+    },
+    "schedule": [
+      ["4:30pm", "Registration"],
+      ["6:00pm", "Dinner"],
+      ["7:00pm", "Get to Know Ya / ice cream social"],
+      ["8:00pm", "Announcements / Topic Intro"],
+      ["8:30pm", "Hangout time"],
+      ["10:30pm", "Devotions"],
+      ["11:00pm", "Lights out"]
+    ]
+  },
+  {
+    "id": 2,
+    "header": {
+      "date": "July 6",
+      "day": "Friday"
+    },
+    "schedule": [
+      ["7:30am", "Breakfast"],
+      ["8:30am", "Session 1"],
+      ["9:30am", "Discussion groups"],
+      ["10:15am", "Break"],
+      ["10:30am", "Workshop session 1"],
+      ["12:00pm", "Lunch"],
+      ["1:00pm", "Session 2"],
+      ["2:00pm", "Discussion groups"],
+      ["2:45pm", "Break"],
+      ["3:00pm", "Service activity"],
+      ["6:00pm", "Dinner"],
+      ["7:00pm", "Recreation / hangout time"],
+      ["10:30pm", "Devotions"],
+      ["11:00pm", "Lights out"]
+    ]
+  },
+  {
+    "id": 3,
+    "header": {
+      "date": "July 7",
+      "day": "Saturday"
+    },
+    "schedule": [
+      ["7:30am", "Breakfast"],
+      ["8:30am", "Session 3"],
+      ["9:30am", "Discussion groups"],
+      ["10:15am", "Break"],
+      ["10:30am", "Workshop session 2"],
+      ["12:00pm", "Lunch"],
+      ["1:00pm", "Session 4"],
+      ["2:30pm", "Recreation / hangout time"],
+      ["6:00pm", "Dinner"],
+      ["7:00pm", "Irish dance"],
+      ["9:00pm", "Recreation / hangout time"],
+      ["10:30pm", "Devotions"],
+      ["11:00pm", "Lights out"]
+    ]
+  },
+  {
+    "id": 4,
+    "header": {
+      "date": "July 8",
+      "day": "Sunday"
+    },
+    "schedule": [
+      ["7:30am", "Breakfast"],
+      ["8:30am", "Travel / worship"],
+      ["1:00pm", "Lunch"],
+      ["2:00pm", "Prayer groups"],
+      ["3:00pm", "Conference photo"],
+      ["3:15pm", "Break"],
+      ["3:30pm", "Workshop session 3"],
+      ["5:00pm", "Dinner"],
+      ["6:30pm", "Worship"],
+      ["8:00pm", "Fellowship time"],
+      ["10:30pm", "Devotions"],
+      ["11:00pm", "Lights out"]
+    ]
+  },
+  {
+    "id": 5,
+    "header": {
+      "date": "July 9",
+      "day": "Monday"
+    },
+    "schedule": [
+      ["7:30am", "Breakfast"],
+      ["8:30am", "Wrap-up / devotional"]
+    ]
+  }
+]

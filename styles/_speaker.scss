@@ -19,7 +19,7 @@ $speaker-border-top: 111px;
     width: 700px;
 
     & >div {
-      padding: 0 20px;
+      padding-left: 20px;
     }
 
     &__label {
@@ -72,7 +72,7 @@ $speaker-border-top: 111px;
     border-top: $speaker-border-top solid $white;
     display: flex;
     justify-content: center;
-    margin: 60px auto;
+    margin: 60px auto 0 auto;
     padding-bottom: 100px;
     width: 100%;
 
@@ -89,7 +89,7 @@ $speaker-border-top: 111px;
 
       &__stripes {
         background: url("../assets/verticalStripes.png") repeat-y;
-        height: 222px;
+        height: 250px;
         width: 65px;
       }
 

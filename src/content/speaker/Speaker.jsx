@@ -18,7 +18,7 @@ export default class Speaker extends Component {
 					<div className="speaker-wrapper">
 						<div className="speaker__img">
 							<div className="speaker__img__stripes"></div>
-							<img src="../assets/a_quigley.jpg" alt="Andrew Quigley profile" />
+							<img src="../assets/SAQ_Nov17-2059_2.jpg" alt="Andrew Quigley profile" />
 						</div>
 						<div className="speaker-right">
 							<div className="speaker__header">
@@ -26,7 +26,7 @@ export default class Speaker extends Component {
 								<div className="speaker__header__text">Andrew Quigley</div>
 							</div>
 							<div className="speaker__profile">
-								<div className="speaker__profile__text">Rev. Andrew Quigley has been a minister in  the Airdrie RP church in Scotland since 1994. He has spoken at a number of RPCNA Family Conferences and Youth Retreats.</div>
+								<div className="speaker__profile__text">Rev. Andrew Quigley has been a minister in  the Airdrie RP church in Scotland since 1994. He has spoken at a number of RPCNA family conferences and youth retreats.</div>
 							</div>
 						</div>
 					</div>
