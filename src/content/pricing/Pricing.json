@@ -1,0 +1,17 @@
+[
+  {
+    "price": "$200",
+    "label": "early bird",
+    "dateRange": "before April 1"
+  },
+  {
+    "price": "$225",
+    "label": "regular",
+    "dateRange": "between April 2 and May 30"
+  },
+  {
+    "price": "$250",
+    "label": "late",
+    "dateRange": "after May 30"
+  }
+]
