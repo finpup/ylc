@@ -1,0 +1,55 @@
+@import 'globals';
+
+#pricing {
+  background: $navy;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 100%;
+
+  &__header {
+    margin: 0 auto;
+    width: 100%;
+
+    &__text {
+      color: $white;
+      font-family: $header-stack;
+      font-size: 36px;
+      margin: 40px auto;
+      width: 92%;
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto 50px auto;
+    width: 92%;
+  }
+}
+
+.pricingCard {
+  flex: 1;
+  margin-left: 100px;
+
+  &__price {
+    color: $white;
+    font-family: $header-stack;
+    font-size: 48px;
+  }
+
+  &__label, &__dateRange {
+    font-size: 24px;
+    margin-top: 16px;
+  }
+
+  &__label {
+    color: $yellow;
+  }
+
+  &__dateRange {
+    color: $orange;
+    max-width: 200px;
+  }
+}
