@@ -6,6 +6,7 @@ import Mission from 'content/mission/Mission';
 import Speaker from 'content/speaker/Speaker';
 import Schedule from 'content/schedule/Schedule';
 import Pricing from 'content/pricing/Pricing';
+import Footer from 'content/footer/Footer';
 import 'styles.scss';
 
 export default class App extends Component {
@@ -18,6 +19,7 @@ export default class App extends Component {
 				<Speaker />
 				<Schedule />
 				<Pricing />
+				<Footer />
 			</div>
 		)
 	}
