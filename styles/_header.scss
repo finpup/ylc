@@ -7,7 +7,7 @@
   width: 100%;
 
   #logo {
-    // flex: 1;
+
     img {
       margin-top: -40px;
       margin-left: -5px;
@@ -48,5 +48,19 @@
         color: $orange;
       }
     }
+  }
+}
+
+@media screen and (max-width: 910px) {
+
+  #header #sponsor {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 625px) {
+
+  #header #title #title_text {
+    font-size: 32px;
   }
 }

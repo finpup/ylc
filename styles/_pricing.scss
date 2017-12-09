@@ -24,14 +24,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 auto 50px auto;
+    margin: 50px auto;
     width: 92%;
   }
 }
 
 .pricingCard {
   flex: 1;
-  margin-left: 100px;
 
   &__price {
     color: $white;
@@ -51,5 +50,23 @@
   &__dateRange {
     color: $orange;
     max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  #pricing {
+
+    &__body {
+      flex-direction: column;
+      margin-bottom: 10px;
+      margin-top: 30px;
+    }
+
+    .pricingCard {
+      justify-content: center;
+      margin-bottom: 40px;
+      margin-left: 80px;
+    }
   }
 }

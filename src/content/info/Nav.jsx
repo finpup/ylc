@@ -44,7 +44,7 @@ export default class Nav extends Component {
 			<nav>
         <div id="speakerBtn" className="navLink" onClick={this.navigatePage.bind(this, "speaker")}>Speaker</div>
         <div id="scheduleBtn" className="navLink" onClick={this.navigatePage.bind(this, "schedule")}>Schedule</div>
-        <div id="workshopsBtn" className="navLink" onClick={this.navigatePage.bind(this, "workshops")}>Workshops</div>
+        {/* <div id="workshopsBtn" className="navLink" onClick={this.navigatePage.bind(this, "workshops")}>Workshops</div> */}
         <div id="pricingBtn" className="navLink" onClick={this.navigatePage.bind(this, "pricing")}>Pricing</div>
       </nav>
 		)

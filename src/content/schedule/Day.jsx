@@ -14,9 +14,9 @@ export default class Day extends Component {
 					<div className="day__header__day">
 						<div className="day__header__day__text">{ this.props.dayInfo.header.day }</div>
 					</div>
-					<div className="day__schedule">
-						{ schedule.map( (item, index) => <ScheduleItem item={ item } key={ index } />) }
-					</div>
+				</div>
+				<div className="day__schedule">
+					{ schedule.map( (item, index) => <ScheduleItem item={ item } key={ index } />) }
 				</div>
 			</div>
 		)

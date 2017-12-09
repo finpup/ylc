@@ -16,7 +16,8 @@ $speaker-border-top: 111px;
     display: flex;
     font-family: $header-stack;
     height: 76px;
-    width: 700px;
+    max-width: 700px;
+    width: 80%;
 
     &__label {
       align-items: center;
@@ -125,6 +126,46 @@ $speaker-border-top: 111px;
         color: $white;
         line-height: 24px;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 770px) {
+  #speaker {
+
+    .topic__label__text, .topic__name__text {
+      font-size: 24px;
+    }
+
+    .speaker .speaker-wrapper {
+      flex-direction: column;
+      justify-content: center;
+      width: 80%;
+    }
+
+    .speaker {
+
+      &__img {
+        justify-content: center;
+      }
+
+      &-right {
+        margin-left: 0;
+        justify-content: center;
+      }
+
+      &__header {
+        color: $teal;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #speaker {
+
+    .topic__label__text {
+      font-size: 18px;
     }
   }
 }
