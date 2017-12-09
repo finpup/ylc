@@ -21,8 +21,8 @@ export default class Info extends Component {
 						</div>
 					</div>
 				</div>
-				<div id="location">
-					<img src="../assets/genevaCollege.jpg" alt="Geneva College campus" />
+				<div id="video">
+					<video src="../assets/YLC-WebsiteColor.mp4" autoPlay loop width="450" />
 				</div>
 				<Register />
       </section>

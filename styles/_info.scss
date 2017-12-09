@@ -5,6 +5,7 @@ $info-height: 250px;
 #info {
   border-top: 8px solid $navy;
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
 
   nav {
@@ -27,7 +28,7 @@ $info-height: 250px;
     height: $info-height;
     justify-content: flex-start;
 
-    #pertinents_wrapper {
+    &_wrapper {
       background: $navy;
       border-right: 3px solid $white;
       border-radius: 0 0 0 8px;
@@ -73,14 +74,10 @@ $info-height: 250px;
     }
   }
 
-  #location {
+  #video {
     border-radius: 0 0 8px 0;
     height: $info-height;
     overflow: hidden;
-
-    img {
-      height: 100%;
-    }
   }
 
   .register {
@@ -88,6 +85,7 @@ $info-height: 250px;
     display: flex;
     flex: 2;
     justify-content: center;
+    margin: 0 20px;
 
 
     &__btn {
@@ -114,6 +112,78 @@ $info-height: 250px;
         font-size: 28px;
         text-decoration: underline;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1150px) {
+
+  #info .register {
+    margin-top: 60px;
+
+    &__btn {
+      height: 100px;
+      width: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 910px) {
+
+  #info {
+    justify-content: center;
+
+    & nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+
+      & .navLink {
+        margin-right: 20px;
+      }
+    }
+
+    #pertinents_wrapper {
+      border-radius: 0 0 8px 8px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 770px) {
+
+  #info {
+    #pertinents {
+      height: 80px;
+      width: 100%;
+
+      &_wrapper {
+        align-items: center;
+        border-radius: 0;
+        border-right: 0;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+        width: 100%;
+      }
+
+      & .pertinents__line {
+        margin-bottom: 0;
+
+        &__text {
+          font-size: 26px;
+        }
+      }
+    }
+
+    #video {
+      border-radius: 0;
+      height: 100%;
+    }
+
+    video {
+      width: 100%;
     }
   }
 }
