@@ -4,6 +4,12 @@ import Register from 'content/info/Register';
 import '_info.scss';
 
 export default class Info extends Component {
+
+	componentDidMount() {
+		var video = document.getElementById("introVid");
+		video.play();
+	}
+
 	render() {
 		return(
 			<section id="info">
@@ -22,7 +28,10 @@ export default class Info extends Component {
 					</div>
 				</div>
 				<div id="video">
-					<video src="../assets/YLC-WebsiteColor.mp4" autoPlay loop width="450" />
+					<video id="introVid" loop playsInline width="450px" poster="../assets/younguns.jpg">
+						<source src="../assets/YLC-WebsiteColor.mp4" type="video/mp4; codecs=avc1.42E01E" />
+						<source src="../assets/YLC-WebsiteColor.webm" type="video/webm; codecs=vp8" />
+					</video>
 				</div>
 				<Register />
       </section>
