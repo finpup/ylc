@@ -28,9 +28,9 @@ export default class Info extends Component {
 					</div>
 				</div>
 				<div id="video">
-					<video id="introVid" loop playsInline width="450px" poster="../assets/younguns.jpg">
-						<source src="../assets/YLC-WebsiteColor.mp4" type="video/mp4; codecs=avc1.42E01E" />
+					<video id="introVid" autoPlay muted loop playsInline width="450px" poster="../assets/poster.png">
 						<source src="../assets/YLC-WebsiteColor.webm" type="video/webm; codecs=vp8" />
+						<source src="../assets/YLC-WebsiteColor.mp4" type="video/mp4; codecs=avc1.42E01E" />
 					</video>
 				</div>
 				<Register />
