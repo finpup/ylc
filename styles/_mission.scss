@@ -43,11 +43,12 @@ $mission-border: 3px solid $teal;
         &__text {
           font-size: 18px;
           font-weight: 400;
-          margin-bottom: 8px;
+          margin-bottom: 24px;
 
           &:last-child {
             font-style: italic;
             margin-top: 20px;
+            margin-bottom: 0px;
           }
         }
       }

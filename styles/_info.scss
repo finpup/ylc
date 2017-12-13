@@ -116,10 +116,12 @@ $info-height: 250px;
   }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
 
   #info .register {
+    flex: initial;
     margin-top: 60px;
+    width: 100%;
 
     &__btn {
       height: 100px;
@@ -128,7 +130,31 @@ $info-height: 250px;
   }
 }
 
-@media screen and (max-width: 910px) {
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  #info {
+    justify-content: center;
+
+    & nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+
+      & .navLink {
+        margin-right: 20px;
+      }
+    }
+
+    #pertinents_wrapper {
+      border-radius: 0 0 8px 8px;
+    }
+  }
+}
+
+@media screen and (max-width: 930px) {
 
   #info {
     justify-content: center;
@@ -151,7 +177,7 @@ $info-height: 250px;
 
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 785px) {
 
   #info {
     #pertinents {
