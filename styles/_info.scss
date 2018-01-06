@@ -4,9 +4,14 @@ $info-height: 250px;
 
 #info {
   border-top: 8px solid $navy;
-  display: flex;
-  flex-wrap: wrap;
   width: 100%;
+
+  &_container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: $max-width;
+    margin: 0 auto;
+  }
 
   nav {
     margin: 20px 0 0 26px;
@@ -156,7 +161,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media screen and (max-width: 930px) {
 
-  #info {
+  #info_container {
     justify-content: center;
 
     & nav {
@@ -179,7 +184,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media screen and (max-width: 785px) {
 
-  #info {
+  #info_container {
     #pertinents {
       height: 80px;
       width: 100%;
@@ -215,7 +220,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 @media screen and (max-width: 500px) {
-  #info {
+  #info_container {
 
     & #pertinents .pertinents__line__text {
       font-size: 20px;
