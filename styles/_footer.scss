@@ -3,74 +3,105 @@
 #footer {
   background: $navy;
   display: flex;
-  flex-direction: row;
-  height: 150px;
+  flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
   width: 100%;
 
-  &__info {
-    align-items: center;
+  &__wrapper {
     display: flex;
-    flex: 1;
+    flex-direction: row;
+    height: 150px;
 
-    &__img {
-      margin-left: -5px;
+    &__info {
+      align-items: center;
+      display: flex;
+      flex: 1;
+
+      &__img {
+        margin-left: -5px;
+      }
+
+      &__title {
+        color: $white;
+        font-family: $header-stack;
+      }
     }
 
-    &__title {
-      color: $white;
-      font-family: $header-stack;
+    &__registration {
+      align-items: center;
+      display: flex;
+      flex: 1;
+      justify-content: center;
+
+      .register {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+
+        &__btn {
+          align-items: center;
+          border: 2px solid $white;
+          border-radius: 8px;
+          color: $white;
+          display: flex;
+          justify-content: center;
+          letter-spacing: 1px;
+          padding: 30px 60px;
+
+          &:hover {
+            border-color: $yellow;
+            cursor: pointer;
+          }
+
+          &:hover .register__btn__text {
+            color: $yellow;
+          }
+
+          &__text {
+            font-family: $header-stack;
+            font-size: 28px;
+            font-weight: 100;
+            text-decoration: underline;
+          }
+        }
+      }
     }
   }
 
-  &__registration {
-    align-items: center;
+
+  &__contact {
+    background: $navy;
+    border-top: 1px solid $white;
+    color: $white;
     display: flex;
-    flex: 1;
     justify-content: center;
+    width: 100%;
 
-    .register {
-      align-items: center;
-      display: flex;
-      justify-content: center;
+    &__text {
+      font-family: $header-stack;
+      font-size: 20px;
+      margin: 16px 0;
 
-
-      &__btn {
-        align-items: center;
-        border: 2px solid $white;
-        border-radius: 8px;
+      & a {
         color: $white;
-        display: flex;
-        justify-content: center;
-        letter-spacing: 1px;
-        padding: 30px 60px;
+      }
 
-        &:hover {
-          border-color: $yellow;
-          cursor: pointer;
-        }
-
-        &:hover .register__btn__text {
-          color: $yellow;
-        }
-
-        &__text {
-          font-family: $header-stack;
-          font-size: 28px;
-          font-weight: 100;
-          text-decoration: underline;
-        }
+      & a:hover {
+        color: $yellow;
       }
     }
   }
 }
 
+
+
 @media screen and (max-width: 700px) {
 
   #footer {
 
-    &__registration {
+    &__wrapper__registration {
 
       .register__btn {
         padding: 20px 30px;
