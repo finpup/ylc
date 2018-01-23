@@ -13,7 +13,7 @@ $speaker-border-top: 111px;
   .topic {
     border: $topic-border;
     border-radius: 8px;
-    display: none; /*flex;*/
+    display: flex;
     font-family: $header-stack;
     height: 76px;
     max-width: 700px;
@@ -29,7 +29,7 @@ $speaker-border-top: 111px;
 
       &__text {
         color: $orange;
-        font-size: 40px;
+        font-size: 26px;
       }
     }
 
@@ -43,7 +43,7 @@ $speaker-border-top: 111px;
       padding-left: 20px;
 
       &__text {
-        font-size: 40px;
+        font-size: 26px;
       }
 
       &__scripture {
@@ -130,11 +130,15 @@ $speaker-border-top: 111px;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 790px) {
   #speaker {
 
-    .topic__label__text, .topic__name__text {
+    .topic__label__text {
       font-size: 24px;
+    }
+
+    .topic__name__scripture {
+      display: none;
     }
 
     .speaker .speaker-wrapper {

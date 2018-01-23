@@ -10,8 +10,8 @@ export default class Speaker extends Component {
 						<div className="topic__label__text">topic</div>
 					</div>
 					<div className="topic__name">
-						<div className="topic__name__text">Do you love me?</div>
-						<div className="topic__name__scripture">John 21</div>
+						<div className="topic__name__text">Conformed to Christ - A Life of Productive Joy</div>
+						<div className="topic__name__scripture">John 13 - 15</div>
 					</div>
 				</div>
 				<div className="speaker">

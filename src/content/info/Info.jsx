@@ -18,10 +18,10 @@ export default class Info extends Component {
 					<div id="pertinents">
 						<div id="pertinents_wrapper">
 							<div className="pertinents__line">
-								<div className="pertinents__line__text">ages 18-24</div>
+								<div className="pertinents__line__text">ages 18 - 24</div>
 							</div>
 							<div className="pertinents__line">
-								<div className="pertinents__line__text">July 5-9, 2018</div>
+								<div className="pertinents__line__text">July 5 - 9, 2018</div>
 							</div>
 							<div className="pertinents__line">
 								<div className="pertinents__line__text">Beaver Falls, Penn.</div>
