@@ -72,10 +72,12 @@
 
 
   &__contact {
+    align-items: center;
     background: $navy;
     border-top: 1px solid $white;
     color: $white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
 
@@ -91,6 +93,11 @@
       & a:hover {
         color: $yellow;
       }
+    }
+
+    &__copyright {
+      font-size: 12px;
+      margin: 10px 0;
     }
   }
 }
