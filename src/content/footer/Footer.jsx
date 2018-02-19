@@ -23,7 +23,7 @@ export default class Footer extends Component {
 	        </div>
 				</div>
 				<div id="footer__contact">
-					<div id="footer__contact__text">Questions?&nbsp;<a href="mailto:&#121;&#109;&#099;&#115;&#121;&#110;&#111;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;?subject=YLC%20question">&#121;&#109;&#099;&#115;&#121;&#110;&#111;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></div>
+					<div id="footer__contact__text">Questions?&nbsp;<a href="mailto:&#114;&#112;&#121;&#109;&#099;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;?subject=YLC%20question">&#114;&#112;&#121;&#109;&#099;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></div>
 					<div id="footer__contact__copyright">&#169;2018 Youth Ministries Committee of Synod</div>
 				</div>
       </div>
